@@ -344,8 +344,8 @@ SOURCE caminho/para/banco_de_dados.sql;
 Abra `src/util/Conexao.java` e ajuste:
 ```java
 private static final String URL     = "jdbc:mysql://localhost:3306/sistema_gestao?...";
-private static final String USUARIO = "root";         // seu usuário
-private static final String SENHA   = "sua_senha";    // sua senha
+private static final String USUARIO = "root";       
+private static final String SENHA   = "123456";    
 ```
 
 ### Passo 3 — Adicionar o Driver MySQL à IDE
